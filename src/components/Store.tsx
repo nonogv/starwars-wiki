@@ -1,7 +1,7 @@
 import React, { createContext, ReactNode, useContext } from 'react';
 import { makeAutoObservable, toJS } from 'mobx';
-import { EntityType, SearchResponse, StarWarsEntity } from './types';
-import { API_URL, EntityTypes } from './constants';
+import { EntityType, SearchResponse, StarWarsEntity } from '../types';
+import { API_URL, EntityTypes } from '../constants';
 
 class Store {
   isLoading = false;

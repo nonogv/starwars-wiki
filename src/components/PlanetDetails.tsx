@@ -1,6 +1,6 @@
 import React from 'react';
 import { observer } from 'mobx-react-lite';
-import { useStore } from '../Store';
+import { useStore } from './Store';
 import { useParams } from 'react-router-dom';
 import ToggleFavoriteButton from './ToggleFavoriteButton';
 import LoadingState from './LoadingState';

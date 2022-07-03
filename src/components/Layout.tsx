@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { observer } from 'mobx-react-lite';
-import { useStore } from '../Store';
+import { useStore } from './Store';
 import TopBar from './TopBar';
 import LoadingState from './LoadingState';
 import ErrorState from './ErrorState';

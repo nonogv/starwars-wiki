@@ -4,7 +4,7 @@ import { debounce } from 'lodash';
 import { observer } from 'mobx-react-lite';
 import { Menu } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/solid';
-import { useStore } from '../Store';
+import { useStore } from './Store';
 import { API_URL, EntityTypes } from '../constants';
 import { EntityType } from '../types';
 

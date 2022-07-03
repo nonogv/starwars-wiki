@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { observer } from 'mobx-react-lite';
-import { useStore } from '../Store';
+import { useStore } from './Store';
 
 const ErrorState: React.FC<{ error: string }> = ({ error }) => {
   const navigate = useNavigate()

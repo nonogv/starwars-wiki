@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { observer } from 'mobx-react-lite';
 import { StarIcon as StarIconSolid } from '@heroicons/react/solid';
 import { StarIcon as StarIconOutline } from '@heroicons/react/outline';
-import { useStore } from '../Store';
+import { useStore } from './Store';
 import { useNavigate } from 'react-router-dom';
 import { API_URL } from '../constants';
 

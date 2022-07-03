@@ -1,5 +1,5 @@
 import React from "react";
-import { useStore } from "../Store";
+import { useStore } from "./Store";
 import { StarIcon as StarIconSolid } from '@heroicons/react/solid';
 import { StarIcon as StarIconOutline } from '@heroicons/react/outline';
 import { observer } from "mobx-react-lite";

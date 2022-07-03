@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { observer } from 'mobx-react-lite';
 import { ChevronDownIcon } from '@heroicons/react/solid';
-import { useStore } from '../Store';
+import { useStore } from './Store';
 import { Menu } from '@headlessui/react';
 import ToggleFavoriteButton from './ToggleFavoriteButton';
 import LoadingState from './LoadingState';
